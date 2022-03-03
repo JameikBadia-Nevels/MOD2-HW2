@@ -30,7 +30,7 @@ app.get('/home', (req,res) => {
 })
 
 app.get('/batman', (req, res) => {
-    res.render('template1', { title: 'Dark Knight', message: 'Batman', content: " The Caped Crusader himself <img src='https://cdn.mos.cms.futurecdn.net/eRugth5FK6fMPiGhxVEgFh.jpg'>" })
+    res.render('template1', { title: 'Dark Knight', message: 'Batman', content: " The Caped Crusader himself is Bruce Wayne  billionaire industrialist and notorious playboy. Although he has no superhuman abilities, he is one of the world's smartest men and greatest fighter. His physical prowess, technical ingenuity, and tactical thinking make him an incredibly dangerous opponent. He's the worlds greatest detective and a founding member of the Justice Leauge. <img src='https://cdn.mos.cms.futurecdn.net/eRugth5FK6fMPiGhxVEgFh.jpg'>" })
 })
 
 app.get('/robin', (req, res) => {
